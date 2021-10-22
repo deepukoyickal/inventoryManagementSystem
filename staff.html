@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+	body
+	{
+		background: #B83586;
+	}
+.box
+{
+	position: absolute;
+	padding: 0px;
+	top: 3%;
+	left: 30%;
+	width: 35%;
+	height: 100%;
+	background: #215749; 
+}
+label
+{
+	font-size: 20px;
+	color: #E5F2F5;
+
+}
+#s
+{
+	padding: 5px;
+
+	position: relative;
+	left: 30px;
+	text-align: right;
+}
+.input
+{
+	position: relative;
+	left: 20%;
+	width: 240px;
+}
+.gender
+{
+	position: relative;
+	left: 20%;
+}
+.input:hover,.gender:hover
+{
+	transform: scale(1.2);
+	z-index: 2;
+}
+.reset
+{
+	position: absolute;
+	left: 15%;
+	width: 30%;
+	background-color: #FD0808;
+	border-width: 0;
+	height: 25px;
+	border-radius: 5px;
+}
+.submit
+{
+	position: absolute;
+	left: 55%;
+	width: 30%;
+	background: #2BF307;
+	border-width: 0;
+	height: 25px;
+	border-radius: 5px;
+
+}
+.submit:hover
+{
+	background: #129F0A;
+	transform: scale(1.2);
+	z-index: 2;
+	font-family: timesnewroman;
+	font-weight: bolder;
+	pointer-events: stroke;
+
+}
+.reset:hover
+{
+	background: #FA043A;
+	transform: scale(1.2);
+	z-index: 2;
+	font-family: timesnewroman;
+	font-weight: bolder;
+	pointer-events: stroke;
+}
+</style>
+
+	<title>Staff</title>
+    
+    
+</head>
+
+<body>
+	<div class="box">
+		<h1><center>Insert New Staff</center></h1>
+<table  cellspacing="10" cellpadding="10" >
+<form>
+
+<tr>
+<td id="s"><label>First Name:</label></td>
+<td><input type="text" id="s1" class="input" /></td>
+</tr>
+
+<tr>
+<td id="s"><label>Last Name:</label></td>
+<td ><input type="text" id="s1" class="input"/></td> 
+</tr>
+
+<tr>
+<td  id="s"><label>House Name:</label></td>
+<td><input type="text" id="s1" class="input"/></td>
+</tr>
+
+<tr>
+<td  id="s"><label>Street:</label></td>
+<td><input type="text" id="s1" class="input"/></td>
+</tr>
+
+<tr>
+<td id="s"><label>City:</label></td>
+<td><input type="text" id="s1" class="input"/></td>
+</tr>
+
+<tr>
+<td id="s"><label>Pincode:</label></td>
+<td><input type="text" id="s1" class="input"/></td>
+</tr>
+
+<tr>
+<td id="s"><label>Phone No:</label></td>
+<td><input type="text" id="s1" class="input"/></td>
+</tr>
+<tr>
+<td id="s"><label>DOB:</label></td>
+<td><input type="text" id="s1" class="input"/></td>
+</tr>
+
+<tr>
+<td id="s"><label>Gender:</label></td>
+<td class="gender"><input type="radio" value="Male" id="s1" name="gender" />Male
+<input type="radio" value="Female" id="s1" name="gender" />Female</td>
+</tr>
+
+<tr>
+<td id="s"><label>Join Date:</label></td>
+<td><input type="text" id="s1" class="input"/></td>
+</tr>
+
+<tr>
+<td id="s"><label>Category:</label></td>
+<td><select name="staff" class="input">
+<option>Salesman</option>
+<option>Packing Section</option>
+<option>Cleaning Section</option>
+<option>Billing Section</option>
+</select></td>
+</tr>
+
+<tr>
+<td id="s"><label>Salary:</label></td>
+<td><input type="text" id="s1"/ class="input"></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="submit" id="s1" class="submit" /></td>
+<td><input type="reset" value="cancel"  id="s1" class="reset" /></td>
+</tr>
+</center>
+</form>
+</table>
+</div>
+</body>
+</html>

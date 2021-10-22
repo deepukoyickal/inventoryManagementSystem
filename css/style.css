@@ -1,0 +1,110 @@
+body
+{
+    background-image: url("d.jpg") ;
+}
+.box
+{
+position: absolute;
+top: 20%;
+left: 35%;
+width:400px;
+background-color: #08F1B3 ;
+height:330px;
+padding: 20px;
+border-radius: 40px;
+}
+.box .input
+{
+    position: relative;
+    padding: 15px;
+}
+.box .input input
+{
+    text-align: center;
+    width: 100%;
+    padding: 7px,0;
+    font-style: serif;
+    font-family: timesnewroman;
+    font-size: 16px;
+    transition: .5s;
+    border: 1px solid #131515;
+    background:none;
+    border-radius: 20px;
+    height: 40px;
+    border-spacing: 5px;
+}
+#submit{
+    position: absolute;
+    left: 53%;
+    top: 80%;
+    width:35%;
+    background-color: #31A742;
+    height: 40px;
+    outline: none;
+    border-width: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+#cancel
+{
+    width:35%;
+    position: absolute;
+   background-color:red;
+    left:12%;
+    top: 80%;
+    height:40px;
+    outline: none;
+    border-width: 0;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#submit:hover
+{
+    background-color:blue;
+    transform: scale(1.2);
+            background: #08F714;
+            z-index: 5;
+            font-size: 15px;
+            font-family: elephent;
+            font-style: italic;
+            font-weight: bolder;
+}
+#cancel:hover
+{
+    background-color: grey;
+    transform: scale(1.2);
+            background: #F74408;
+            z-index: 5;
+            font-size: 15px;
+            font-family: elephent;
+            font-style: italic;
+            font-weight: bolder;
+}
+.user
+{
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.box .input input[type="text"]:hover,.box .input input[type="password"]:hover,.box.user:hover
+{
+    background-color: #D78FE9;
+    transform: scale(1.1);
+    z-index: 5;
+    border:1px solid #2CFA36;
+    color: #021405
+    pointer:stroke;
+
+}
+.box .input input:focus~label,
+.box .input input:valid~label
+{
+    top: -22px;
+    left: 0;
+    color:#021405;
+    font-size: 16px;
+}

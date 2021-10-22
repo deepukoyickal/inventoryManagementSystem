@@ -1,0 +1,79 @@
+body
+{
+
+}
+.box
+{
+position: absolute;
+top: 15%;
+left: 15%;
+width:70%;
+height: 70%;
+background-color:#6DD9E9;
+padding: 30px;
+}
+.aa
+{
+  display: flex;
+  float: right;
+  padding: 20px;
+}
+.input1
+{
+  position: relative;
+  left: 10px;
+}
+.input input
+{
+    background: #D78FE9;
+    
+    width:200px;
+    border-radius: 5px;
+    border-bottom:1px  solid green ;
+    border-width: 0;
+    padding-bottom:10px;
+}
+label
+{
+    color:red;
+    font-weight: bold;
+    padding: 10px;
+}
+#submit{
+    position: absolute;
+    left: 250px;
+    width:70px;
+    background-color: green;
+    height: 30px;
+    
+}
+#update
+{
+    width:70px;
+    position: absolute;
+   background-color:violet;
+    left:150px;
+    height:30px;
+}
+#cancel
+{
+   width:70px;
+   left: 50px; 
+   background-color: red;
+   position:absolute;
+   height: 30px;
+}
+#update:hover
+{
+    background-color:pink;
+}
+#submit:hover
+{
+    background-color:blue;
+}
+
+
+#cancel:hover
+{
+    background-color: grey;
+}

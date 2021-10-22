@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function myfunction()
+		{
+			var x=document.getElementById('num1').value;
+			var y=document.getElementById('num2').value;
+			var temp=x*y;
+			document.getElementById('sum').value=temp;
+			alert(temp);
+
+		}
+	</script>
+</head>
+<body>
+	<center>
+<div class="box">
+	<form onmousemove="myfunction()">
+		<input type="text" id="num1">
+		<input type="text" id="num2">
+		<input type="text" id="sum">
+	</form>
+</div>
+</center>
+</body>
+</html>
